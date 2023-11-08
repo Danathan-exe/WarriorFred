@@ -69,6 +69,7 @@ public class WarriorFred {
         for(int i=0;i<armory.length;i++)
             System.out.println("Armory:" + this.armory[i]);
         System.out.println();
+
     }
     public void printStatus(){
         System.out.println("Warrior " + getNickName() + " " + "Health = " + lifeForce + "  " + "damage = " + getDamage());

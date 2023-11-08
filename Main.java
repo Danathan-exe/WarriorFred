@@ -28,6 +28,7 @@ public class Main {
                 int damageTaken = (round % 5) + 1;
                 w.takeDamage(damageTaken);
                 w.reaction();
+                w.printStatus();
 
                 System.out.println();
             }
